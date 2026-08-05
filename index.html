@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roti Es Krim — Lembut, Dingin, dan Manis dalam Setiap Gigitan</title>
+<meta name="description" content="Roti Es Krim: roti lembut dipadukan es krim premium dengan 6 varian rasa. Fresh setiap hari, harga terjangkau mulai Rp13.000/pcs. Pesan sekarang via WhatsApp.">
+<meta name="keywords" content="roti es krim, jajanan kekinian, dessert, es krim roti, jakarta timur">
+<meta property="og:title" content="Roti Es Krim — Lembut, Dingin, Manis">
+<meta property="og:description" content="Roti lembut dipadukan es krim premium. 6 varian rasa, mulai Rp13.000/pcs.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home" class="brand">🍞 Roti Es Krim</a>
+    <ul class="nav-links">
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#testimoni">Testimoni</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#menu" class="btn btn-outline">Lihat Menu</a>
+      <button class="cart-btn" id="cartOpenBtn" aria-label="Buka Keranjang">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-badge hide" id="cartBadge">0</span>
+      </button>
+    </div>
+    <button class="cart-btn" id="cartOpenBtnMobile" aria-label="Buka Keranjang" style="display:none;">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span class="cart-badge hide" id="cartBadgeMobile">0</span>
+    </button>
+    <button class="burger" id="burgerBtn"><i class="fa-solid fa-bars"></i></button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content reveal">
+      <span class="eyebrow">Jajanan Kekinian✨</span>
+      <h1 class="hero-title">🍞 Roti Es Krim <span>Lembut & Segar</span></h1>
+      <p class="hero-sub">Lembut, Dingin, dan Manis dalam Setiap Gigitan. Roti empuk berpadu es krim premium, siap memanjakan lidahmu kapan saja.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/628811927531" target="_blank" class="btn btn-primary"><i class="fa-solid fa-bag-shopping"></i> Pesan Sekarang</a>
+        <a href="#menu" class="btn btn-outline"><i class="fa-solid fa-list"></i> Lihat Menu</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="blob"></div>
+      <div class="sprinkle s1">🍓</div>
+      <div class="sprinkle s2">🍫</div>
+      <div class="sprinkle s3">✨</div>
+      <img src="gambar/original.jpg" alt="Roti Es Krim" class="roti-illustration">
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang">
+  <div class="container">
+    <span class="eyebrow reveal">Tentang Kami</span>
+    <h2 class="section-title reveal">Kenapa Memilih Roti Es Krim Kami?</h2>
+    <p class="about-text reveal">Kami menghadirkan roti yang lembut dipadukan dengan es krim premium berkualitas sehingga menghasilkan rasa yang lezat dan menyegarkan. Cocok dinikmati kapan saja bersama teman maupun keluarga.</p>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="about-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+        <h3>Bahan Berkualitas</h3>
+        <p>Dipilih dari bahan terbaik untuk rasa maksimal.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon"><i class="fa-solid fa-sun"></i></div>
+        <h3>Fresh Setiap Hari</h3>
+        <p>Dibuat baru setiap hari, tanpa disimpan lama.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon"><i class="fa-solid fa-tags"></i></div>
+        <h3>Harga Terjangkau</h3>
+        <p>Rasa premium dengan harga bersahabat.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon"><i class="fa-solid fa-ice-cream"></i></div>
+        <h3>Banyak Pilihan Rasa</h3>
+        <p>6 varian rasa favorit untuk semua selera.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="menu">
+  <div class="container">
+    <span class="eyebrow reveal">Varian Rasa</span>
+    <h2 class="section-title reveal">Pilih Rasa Favoritmu</h2>
+    <p class="section-sub reveal">Semua rasa dibuat dari bahan pilihan dengan harga yang sama, jadi bebas mau pilih rasa apa saja.</p>
+    <div class="menu-grid">
+      <div class="menu-card reveal">
+        <img src="gambar/chocolate.jpg" alt="Roti Es Krim Chocolate" class="menu-img">
+        <h3>Chocolate</h3>
+        <div class="menu-price">Rp13.000 / pcs</div>
+        <button class="btn btn-primary add-cart-btn" data-name="Chocolate" data-price="13000" data-emoji="🍫">Tambah ke Keranjang</button>
+      </div>
+      <div class="menu-card reveal">
+        <img src="gambar/strowberry.jpg" alt="Roti Es Krim Strawberry" class="menu-img">
+        <h3>Strawberry</h3>
+        <div class="menu-price">Rp13.000 / pcs</div>
+        <button class="btn btn-primary add-cart-btn" data-name="Strawberry" data-price="13000" data-emoji="🍓">Tambah ke Keranjang</button>
+      </div>
+      <div class="menu-card reveal">
+        <img src="gambar/vanilla.jpg" alt="Roti Es Krim Vanilla" class="menu-img">
+        <h3>Vanilla</h3>
+        <div class="menu-price">Rp13.000 / pcs</div>
+        <button class="btn btn-primary add-cart-btn" data-name="Vanilla" data-price="13000" data-emoji="🍦">Tambah ke Keranjang</button>
+      </div>
+      <div class="menu-card reveal">
+        <img src="gambar/matcha.jpg" alt="Roti Es Krim Matcha" class="menu-img">
+        <h3>Matcha</h3>
+        <div class="menu-price">Rp13.000 / pcs</div>
+        <button class="btn btn-primary add-cart-btn" data-name="Matcha" data-price="13000" data-emoji="🍵">Tambah ke Keranjang</button>
+      </div>
+      <div class="menu-card reveal">
+        <img src="gambar/cookis&cream.jpg" alt="Roti Es Krim Cookies & Cream" class="menu-img">
+        <h3>Cookies & Cream</h3>
+        <div class="menu-price">Rp13.000 / pcs</div>
+        <button class="btn btn-primary add-cart-btn" data-name="Cookies &amp; Cream" data-price="13000" data-emoji="🍪">Tambah ke Keranjang</button>
+      </div>
+      <div class="menu-card reveal">
+        <img src="gambar/taro.jpg" alt="Roti Es Krim Taro" class="menu-img">
+        <h3>Taro</h3>
+        <div class="menu-price">Rp13.000 / pcs</div>
+        <button class="btn btn-primary add-cart-btn" data-name="Taro" data-price="13000" data-emoji="💜">Tambah ke Keranjang</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMO -->
+<section id="promo">
+  <div class="container">
+    <div class="promo reveal">
+      <h2>🎉 PROMO SPESIAL</h2>
+      <div class="promo-box">
+        <div class="big">Beli 3 hanya Rp32.000</div>
+        <div class="big">Bebas pilih rasa</div>
+        <div style="margin-top:10px;">Harga normal <span class="old">Rp39.000</span></div>
+        <div class="save">Hemat Rp7.000</div>
+      </div>
+      <a href="https://wa.me/628811927531?text=Halo,%20saya%20mau%20order%20promo%20beli%203%20Rp32.000" target="_blank" class="btn btn-primary">Pesan Sekarang</a>
+    </div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section id="keunggulan">
+  <div class="container">
+    <span class="eyebrow reveal">Keunggulan</span>
+    <h2 class="section-title reveal">Kenapa Orang Suka Balik Lagi</h2>
+    <div class="adv-grid">
+      <div class="adv-item reveal"><i class="fa-solid fa-circle-check"></i><span>Roti Fresh</span></div>
+      <div class="adv-item reveal"><i class="fa-solid fa-circle-check"></i><span>Es Krim Premium</span></div>
+      <div class="adv-item reveal"><i class="fa-solid fa-circle-check"></i><span>Banyak Pilihan Rasa</span></div>
+      <div class="adv-item reveal"><i class="fa-solid fa-circle-check"></i><span>Harga Terjangkau</span></div>
+      <div class="adv-item reveal"><i class="fa-solid fa-circle-check"></i><span>Cocok Semua Usia</span></div>
+      <div class="adv-item reveal"><i class="fa-solid fa-circle-check"></i><span>Higienis</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri" class="gallery">
+  <div class="container">
+    <span class="eyebrow reveal">Galeri</span>
+    <h2 class="section-title reveal">Intip Kelezatannya</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal" data-label="Chocolate"><img src="gambar/chocolate.jpg" alt="Roti Es Krim Chocolate"></div>
+      <div class="gallery-item reveal" data-label="Strawberry"><img src="gambar/strowberry.jpg" alt="Roti Es Krim Strawberry"></div>
+      <div class="gallery-item reveal" data-label="Vanilla"><img src="gambar/vanilla.jpg" alt="Roti Es Krim Vanilla"></div>
+      <div class="gallery-item reveal" data-label="Matcha" ><img src="gambar/matcha.jpg" alt="Roti Es Krim Matcha"></div>
+      <div class="gallery-item reveal" data-label="Cookies & Cream" ><img src="gambar/cookis&cream.jpg" alt="Roti Es Krim Cookies & Cream"></div>
+      <div class="gallery-item reveal" data-label="Taro" ><img src="gambar/taro.jpg" alt="Roti Es Krim Taro"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section id="testimoni">
+  <div class="container">
+    <span class="eyebrow reveal">Testimoni</span>
+    <h2 class="section-title reveal">Kata Mereka</h2>
+    <div class="test-grid">
+      <div class="test-card reveal">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Rotinya lembut, es krimnya enak banget."</p>
+        <div class="test-name">— Iqbal</div>
+      </div>
+      <div class="test-card reveal">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Rasanya premium tapi harganya murah."</p>
+        <div class="test-name">— Pace</div>
+      </div>
+      <div class="test-card reveal">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Anak-anak suka sekali."</p>
+        <div class="test-name">— Bram</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <span class="eyebrow reveal center" style="display:block;text-align:center;">FAQ</span>
+    <h2 class="section-title reveal center">Pertanyaan Umum</h2>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-q">Apakah roti dibuat setiap hari? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a">Ya, roti kami dibuat fresh setiap hari agar rasanya selalu terbaik.</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">Apakah bisa pesan banyak? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a">Bisa, silakan hubungi kami via WhatsApp untuk pemesanan dalam jumlah besar.</div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">Apakah menerima pesanan acara? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a">Ya, kami menerima pesanan untuk acara ulang tahun, arisan, dan acara sekolah.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-wrap reveal">
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div><h4>Alamat</h4><p>Jl. Raya Condet No. 123, Kramat Jati, Jakarta Timur 13520</p></div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-brands fa-whatsapp"></i>
+          <div><h4>WhatsApp</h4><p>0881-1927-531</p></div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div><h4>Email</h4><p>alfariziy76@gmail.com</p></div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-solid fa-clock"></i>
+          <div><h4>Jam Operasional</h4><p>09.00 - 20.00 WIB</p></div>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <div class="icon-big">🍞🍦</div>
+        <h3>Yuk, Pesan Sekarang!</h3>
+        <p>Chat kami langsung via WhatsApp untuk pemesanan cepat.</p>
+        <a href="https://wa.me/628811927531?text=Halo,%20saya%20mau%20pesan%20Roti%20Es%20Krim" target="_blank" class="btn btn-wa"><i class="fa-brands fa-whatsapp"></i> Chat WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">🍞 Roti Es Krim</div>
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/628811927531" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Roti Es Krim Yusuf.</div>
+  </div>
+</footer>
+
+<a href="https://wa.me/628811927531" target="_blank" class="wa-float" aria-label="Chat WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+<!-- CART -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<div class="cart-drawer" id="cartDrawer" role="dialog" aria-label="Keranjang Belanja">
+  <div class="cart-head">
+    <h3><i class="fa-solid fa-cart-shopping"></i> Keranjang Kamu</h3>
+    <button class="cart-close" id="cartCloseBtn" aria-label="Tutup Keranjang"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="cart-items" id="cartItemsWrap">
+    <div class="cart-empty" id="cartEmptyState">
+      <div class="emoji">🛒</div>
+      <p>Keranjang masih kosong.<br>Yuk pilih rasa favoritmu dulu!</p>
+    </div>
+  </div>
+  <div class="cart-foot" id="cartFoot" style="display:none;">
+    <div class="cart-total-row"><span>Total</span><span id="cartTotalText">Rp0</span></div>
+    <button class="btn btn-wa" id="checkoutWaBtn" style="width:100%;"><i class="fa-brands fa-whatsapp"></i> Checkout via WhatsApp</button>
+    <button class="btn btn-outline" id="checkoutEmailBtn" style="width:100%;"><i class="fa-solid fa-envelope"></i> Checkout via Email</button>
+    <p class="checkout-note">Pesanan akan dikirim ke WhatsApp +62 881-1927-531 & email alfariziy76@gmail.com</p>
+  </div>
+</div>
+
+<div class="toast" id="cartToast"><i class="fa-solid fa-circle-check"></i> <span id="cartToastText">Berhasil ditambahkan!</span></div>
+
+<script src="script.js"></script>
+</body>
+</html>
